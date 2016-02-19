@@ -1,0 +1,10 @@
+
+# stupid files
+.DS_Store
+Thumbs.db
+
+# generated files
+build/
+out/
+
+
