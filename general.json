@@ -161,7 +161,7 @@
     ],
 
     "education": {
-        "summary": "TODO: Optional overall education summary. Not used in most themes.",
+        "summary": "",
         "level": "certificate",
         "degree": "Game Art & Design",
         "history": [
