@@ -47,9 +47,10 @@
             "url": "https://hackerrank.com/aceiii"
         },
         {
-            "label": "hangouts",
-            "network": "Google Hangouts",
-            "user": "Brain Ache"
+            "label": "googleplus",
+            "network": "Google+",
+            "user": "Brain Ache",
+            "url": "https://plus.google.com/u/0/+BrainAche"
         }
     ],
 
@@ -96,7 +97,7 @@
             },
             {
                 "employer": "Redl Sports Distributors",
-                "url": "",
+                "url": "https://www.redlsports.com",
                 "position": "Receiver",
                 "summary": "Warehouse receiver.",
                 "start": "2008",
@@ -148,7 +149,7 @@
             "title": "LetterBlocks",
             "category": "Game",
             "url": "https://borinouch.com/games/letterblocks",
-            "repo": "",
+            "repo": "about:blank",
             "media": [],
             "role": "Sole Developer",
             "summary": "Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.",
@@ -364,7 +365,7 @@
             "level": "beginner"
         },
         {
-            "langage": "Ruby",
+            "language": "Ruby",
             "level": "Beginner"
         }
     ],
