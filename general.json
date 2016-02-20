@@ -63,12 +63,7 @@
                 "position": "Software Developer",
                 "summary": "Master of Web and UI, responsible for bringing consumer facing applications to the era of the modern web.",
                 "start": "2013-07",
-                "keywords": [
-                    "Web", "MVC", "ASP.NET", "C#",
-                    "HTML", "javascript", "CSS",
-                    "LESS", "jQuery", "Knockout.js",
-                    "hardware", "ActiveX", "Windows"
-                ],
+                "keywords": ["C#", "Asp.NET MVC", "HTML5", "Javascript", "Knockout.js", "jQuery", "LESS"],
                 "highlights": [
                     "Migrated point-of-sale app to modern HTML5 and Javascript, leading to transactions of up to 40K per day",
                     "Built a stand-alone payment app using Asp.NET MVC which take in 1500 transactions daily",
@@ -86,11 +81,7 @@
                 "start": "2010",
                 "end": "2013-05",
                 "keywords": [
-                    "Web", "Flash", "PHP", "Python", "C++",
-                    "HTML", "javascript", "CSS", "UI/UX", "Backbone.js", "Underscore.js",
-                    "jQuery", "Knockout.js", "Require.js", "Bootstrap", "MySQL",
-                    "CodeIgniter", "Vagrant", "git", "Linux", "Ubuntu"
-                ],
+                    "PHP", "CodeIgniter", "Python", "HTML5", "Javascript", "Backbone.js", "MySQL", "Vagrant", "git", "Linux"],
                 "highlights": [
                     "Set up Vagrant vm for development, allowing quicker developer start up",
                     "Wrote Python scripts to automate build and deploy process for faster turn around",
@@ -106,7 +97,7 @@
                 "start": "2008",
                 "end": "2010",
                 "keywords": [
-                    "Redl", "Sports", "Fishing", "Tackle", "Distributor", "Warehouse", "Receiving"
+                    "Fishing", "Tackle", "Distributor", "Warehouse", "Receiving"
                 ],
                 "highlights": [
                     "Received and signed for packages",
