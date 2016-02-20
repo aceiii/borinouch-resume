@@ -261,23 +261,7 @@
         }
     ],
 
-    "reading": [
-        {
-            "title": "Hacker News",
-            "flavor": "website",
-            "url": "https://news.ycombinator.com/"
-        },
-        {
-            "title": "r/programming",
-            "flavor": "website",
-            "url": "https://www.reddit.com/r/programming"
-        },
-        {
-            "title": "r/gamedev",
-            "flavor": "website",
-            "url": "https://www.reddit.com/r/gamedev"
-        }
-    ],
+    "reading": [],
 
     "recognition": [],
 
