@@ -348,32 +348,6 @@
         }
     ],
 
-    "interests": [
-        {
-            "name": "Design & Illustration",
-            "summary": "I'm a very visual person. I like to stay creative by practicing drawing and illustration.",
-            "keywords": [
-                "Drawing", "Illustration", "Painting", "Concept Art", "Sketching",
-                "Photoshop", "Sketchbook", "Moleskine", "OpenCanvas", "Art",
-                "conceptart.org"
-            ]
-        },
-        {
-            "name": "Game Development",
-            "summary": "Lover of games from a young age. The mix of creative and technical together has enticed me to learn everything involved in game development to create my own.",
-            "keywords": [
-                "Programming", "C++", "Game Engine", "Physics", "OpenGL", "SDL",
-                "Concept-Art", "Illustration", "Drawing", "Sketching", "Game Design"
-            ]
-        },
-        {
-            "name": "RC Planes and Helicopters",
-            "summary": "Have always wanted to build and fly RC planes and helicopters.",
-            "keywords": [
-                "RC", "Spektrum", "DSM2", "Helicopter", "Quadcopter", "Airplane",
-                "Cyclic", "Flybar", "Swashplate", "FPV", "Drone"
-            ]
-        }
-    ]
+    "interests": []
 }
 
