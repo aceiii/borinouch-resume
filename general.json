@@ -123,6 +123,22 @@
                     "Tested games on the yet unreleased Wii console",
                     "Improved quality of final game"
                 ]
+            },
+            {
+                "employer": "AfterCAD Software",
+                "url": "http://www.aftercad.com",
+                "position": "Artist & Programmer",
+                "summary": "Used my skills in art and coding to improve quality of work and work flow.",
+                "start": "2007",
+                "end": "2008",
+                "keywords": [
+                    "3DS Max", "Scripting", "Lightmaps", "Art", "Modeling"
+                ],
+                "highlights": [
+                    "Wrote max scripts to automate tasks in 3DS Max",
+                    "Created new and modified existing scenes to work with tech",
+                    "Adviser for integration of art and technology"
+                ]
             }
         ]
     },
