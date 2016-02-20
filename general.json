@@ -146,8 +146,8 @@
             "repo": "about:blank",
             "media": [],
             "role": "Sole Developer",
-            "summary": "Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.",
-            "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
+            "summary": "My first foray into iOS game development. Enticed by the newly released Swift programming language and SpriteKit game library, I ventered to create a simple yet fun word game in the style of boggle. In the end it took about 4 months to complete in my free time, and was an interesting experience.",
+            "description": "LetterBlocks is a game for those who like simple word games such as Boggle or Scrabble.",
             "highlights": [
                 "Coded in Apple's new programming language, Swift",
                 "Using Apple's game library for iOS, SpriteKit",
