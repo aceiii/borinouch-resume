@@ -247,19 +247,7 @@
 
     "samples": [],
 
-    "writing": [
-        {
-            "title": "My Blog",
-            "publisher": {
-                "name": "Borin Ouch",
-                "url": "https://borinouch.com"
-            },
-            "flavor": "blog",
-            "date": "2016",
-            "summary": "Borin's Blog",
-            "url": "https://borinouch.com/blog"
-        }
-    ],
+    "writing": [],
 
     "reading": [],
 
