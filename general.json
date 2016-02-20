@@ -61,7 +61,7 @@
                 "employer": "TIO Networks Corp.",
                 "url": "https://tionetworks.com",
                 "position": "Software Developer",
-                "summary": "Master of Web and UI. Responsible for bringing consumer facing applications to the era of the modern web.",
+                "summary": "Master of Web and UI, responsible for bringing consumer facing applications to the era of the modern web. Using C# and ASP.NET, I wa",
                 "start": "2013-07",
                 "keywords": [
                     "Web", "MVC", "ASP.NET", "C#",
@@ -70,17 +70,19 @@
                     "hardware", "ActiveX", "Windows"
                 ],
                 "highlights": [
-                    "Migrated point-of-sale app to modern web, leading to increased transactions of up to 40K per day",
-                    "Built a stand-alone payment app, takes in over 1500 transactions per day",
-                    "Produced new point-of-sale to replace legacy app for smoother client experience and improved partner onboarding",
-                    "Created a payment proof-of-concept, allowing a contract/integration with a partner to go through"
+                    "Migrated point-of-sale app to modern HTML5 and Javascript, leading to transactions of up to 40K per day",
+                    "Built a stand-alone payment app using Asp.NET MVC which take in 1500 transactions daily",
+                    "Produced new point-of-sale to replace legacy app for improved partner onboarding",
+                    "Implemented the POS client using Knockout.js, jQuery, AJAX for smoother user interaction and less support tickets filed",
+                    "Created a payment proof-of-concept, allowing a contract/integration with a partner to go through",
+                    "Introduced LESS to keep help keep stylesheets DRY"
                 ]
             },
             {
                 "employer": "MAPTMedia Inc.",
                 "url": "https://maptmedia.com",
                 "position": "Senior Full Stack Software Developer",
-                "summary": "Full Stack Developer leading the design and development of the custom MAPT Content Management System.",
+                "summary": "As a full stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.", 
                 "start": "2010",
                 "end": "2013-05",
                 "keywords": [
@@ -90,16 +92,17 @@
                     "CodeIgniter", "Vagrant", "git", "Linux", "Ubuntu"
                 ],
                 "highlights": [
-                    "Set up vagrant for development, allowing quicker developer start up",
-                    "Wrote scripts to automate build and deploy process for faster turn around",
-                    "Designed the architecture and structure of application backend and frontend"
+                    "Set up Vagrant vm for development, allowing quicker developer start up",
+                    "Wrote Python scripts to automate build and deploy process for faster turn around",
+                    "Implemented the architecture for the CMS using our knowledge of PHP, HTML, CSS, and Javascript",
+                    "Performed the configuration of Linux servers, and deployment of apps"
                 ]
             },
             {
                 "employer": "Redl Sports Distributors",
                 "url": "https://www.redlsports.com",
                 "position": "Receiver",
-                "summary": "Warehouse receiver.",
+                "summary": "Received packages from delivery personal, counted and verified items on packing slip, and signed for packages.",
                 "start": "2008",
                 "end": "2010",
                 "keywords": [
@@ -118,7 +121,7 @@
                 "start": "2006-09",
                 "end": "2007-02",
                 "keywords": [
-                    "qa", "quality assurance", "testing", "tester", "games", "wii"
+                    "QA", "Testing", "Games", "Wii", "Bug Tracking", "Reporting"
                 ],
                 "highlights": [
                     "Tested games on the yet unreleased Wii console",
