@@ -246,20 +246,7 @@
         "list": []
     },
 
-    "samples": [
-        {
-            "title": "Work Sample #1",
-            "summary": "A technical or creative **work sample**.",
-            "url": "http://project-repo.com",
-            "date": "2015"
-        },
-        {
-            "title": "Creative Sample #2",
-            "summary": "Another technical or creative sample. You can use [Markdown](https://daringfireball.net/projects/markdown/) here.",
-            "url": "http://project-repo.com",
-            "date": "2015"
-        }
-    ],
+    "samples": [],
 
     "writing": [
         {
