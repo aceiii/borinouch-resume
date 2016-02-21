@@ -188,7 +188,7 @@
                 "end": "2004-07",
                 "summary": "Completed first year of the Computer Systems Technician program",
                 "curriculum": [
-                    "Windows", "Network Administration", "Active Directory", "LDAP",
+                    "Windows", "Administration", "Active Directory", "LDAP",
                     "Kerberos", "Networking", "OSI Layer", "CCNA", "TCP/IP", "Programming",
                     "C++", "Java", "PC Repair"
                 ]
