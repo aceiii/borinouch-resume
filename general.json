@@ -76,7 +76,7 @@
             {
                 "employer": "MAPTMedia Inc.",
                 "url": "https://maptmedia.com",
-                "position": "Senior Full Stack Software Developer",
+                "position": "Full Stack Software Developer",
                 "summary": "As a full stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.", 
                 "start": "2010",
                 "end": "2013-05",
@@ -152,7 +152,7 @@
                 "Coded in Apple's new programming language, Swift",
                 "Using Apple's game library for iOS, SpriteKit",
                 "Uses SQLite Database to store and fetch words",
-                "Uses GCD for improved user interation"
+                "Uses Grand Central Dispatch for improved user interation"
             ],
             "keywords": [
                 "letters", "blocks", "letterblocks", "word", "spelling", "boggle", "puzzle", "board"
@@ -167,7 +167,7 @@
         "history": [
             {
                 "institution": "The Art Institue of Vancouver",
-                "title": "",
+                "title": "Game Art and Design",
                 "url": "https://www.artinstitutes.edu/vancouver",
                 "start": "2005-01",
                 "end": "2006-06",
@@ -182,7 +182,7 @@
             },
             {
                 "institution": "British Columnbia Institute of Technology",
-                "title": "",
+                "title": "Computer Systems Technician",
                 "url": "http://www.bcit.ca",
                 "start": "2003-09",
                 "end": "2004-07",
