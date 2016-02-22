@@ -8,7 +8,7 @@
 
     "info": {
         "label": "Software Developer",
-        "brief": "Borin is a full-stack developer with over 5 years of experience. He enjoys creating works from an artist side as well as a technical side. In his free time, besides having fun with his family, he works to improve his art and programming skills and loves solving problems.",
+        "brief": "Full-stack developer with over 5 years of industry experience. In his day to day work, you may find him working on anything from front-end to back-end. One day he may be cleaning up HTML or CSS, or implementing a Single Page Application with JavaScript, another day he may troubleshooting C#, PHP, or C++ code to solve a nasty back-end issue, or he may be writing Python scripts to automate a task. In his free time, he may be working to improve is artwork or programming, or utilize both by building a game.",
         "image": ""
     },
 
@@ -63,29 +63,29 @@
                 "position": "Software Developer",
                 "summary": "Master of Web and UI, responsible for bringing consumer facing applications to the era of the modern web.",
                 "start": "2013-07",
-                "keywords": ["C#", "Asp.NET MVC", "HTML5", "Javascript", "Knockout.js", "jQuery", "LESS"],
+                "keywords": ["C#", "Asp.NET MVC", "HTML5", "JavaScript", "Knockout.js", "jQuery", "LESS"],
                 "highlights": [
-                    "Migrated point-of-sale app to modern HTML5 and Javascript, leading to transactions of up to 40K per day",
+                    "Migrated point-of-sale app to modern HTML5 and JavaScript, leading to transactions of up to 40K per day",
                     "Built a stand-alone payment app using Asp.NET MVC which take in 1500 transactions daily",
-                    "Produced new point-of-sale to replace legacy app for improved partner onboarding",
+                    "Produced new point-of-sale to replace legacy app for improved partner on-boarding",
                     "Implemented the POS client using Knockout.js, jQuery, AJAX for smoother user interaction and less support tickets filed",
                     "Created a payment proof-of-concept, allowing a contract/integration with a partner to go through",
-                    "Introduced LESS to keep help keep stylesheets DRY"
+                    "Introduced LESS to keep help keep style sheets DRY"
                 ]
             },
             {
                 "employer": "MAPTMedia Inc.",
                 "url": "https://maptmedia.com",
-                "position": "Full Stack Software Developer",
-                "summary": "As a full stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.", 
+                "position": "Full-Stack Software Developer",
+                "summary": "As a full-stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.", 
                 "start": "2010",
                 "end": "2013-05",
                 "keywords": [
-                    "PHP", "CodeIgniter", "Python", "HTML5", "Javascript", "Backbone.js", "MySQL", "Vagrant", "git", "Linux"],
+                    "PHP", "CodeIgniter", "Python", "HTML5", "JavaScript", "Backbone.js", "MySQL", "Vagrant", "git", "Linux"],
                 "highlights": [
-                    "Set up Vagrant vm for development, allowing quicker developer start up",
+                    "Set up Vagrant virtual machine for development, allowing quicker developer start up",
                     "Wrote Python scripts to automate build and deploy process for faster turn around",
-                    "Implemented the architecture for the CMS using our knowledge of PHP, HTML, CSS, and Javascript",
+                    "Implemented the architecture for the CMS using our knowledge of PHP, HTML, CSS, and JavaScript",
                     "Performed the configuration of Linux servers, and deployment of apps"
                 ]
             },
@@ -127,7 +127,7 @@
                 "start": "2007",
                 "end": "2008",
                 "keywords": [
-                    "3DS Max", "Scripting", "Lightmaps", "Art", "Modeling"
+                    "3DS Max", "Scripting", "Light maps", "Art", "Modeling"
                 ],
                 "highlights": [
                     "Wrote max scripts to automate tasks in 3DS Max",
@@ -152,10 +152,10 @@
                 "Coded in Apple's new programming language, Swift",
                 "Using Apple's game library for iOS, SpriteKit",
                 "Uses SQLite Database to store and fetch words",
-                "Uses Grand Central Dispatch for improved user interation"
+                "Uses Grand Central Dispatch for improved user interaction"
             ],
             "keywords": [
-                "letters", "blocks", "letterblocks", "word", "spelling", "boggle", "puzzle", "board"
+                "letters", "blocks", "word", "spelling", "boggle", "puzzle", "board"
             ]
         }
     ],
@@ -166,7 +166,7 @@
         "degree": "Game Art & Design",
         "history": [
             {
-                "institution": "The Art Institue of Vancouver",
+                "institution": "The Art Institute of Vancouver",
                 "title": "Game Art and Design",
                 "url": "https://www.artinstitutes.edu/vancouver",
                 "start": "2005-01",
@@ -181,7 +181,7 @@
                 ]
             },
             {
-                "institution": "British Columnbia Institute of Technology",
+                "institution": "British Columbia Institute of Technology",
                 "title": "Computer Systems Technician",
                 "url": "http://www.bcit.ca",
                 "start": "2003-09",
@@ -209,7 +209,7 @@
                 ]
             },
             {
-                "name": "Full Stack Software Development",
+                "name": "Full-Stack Software Development",
                 "level": "advanced",
                 "skills": [
                     "Windows", "Linux", "OSX", "SSH", "Vagrant",
@@ -257,7 +257,7 @@
         {
             "name": "Matthew Jeffery",
             "category": "professional",
-            "role": "FullStack Developer @ The Muse",
+            "role": "Full-Stack Developer @ The Muse",
             "private": true,
             "summary": "Contact information available on request.",
             "contact": [
