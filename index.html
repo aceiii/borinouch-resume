@@ -1,1 +1,681 @@
-Test Page
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Borin Ouch</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            main {
+              display: block;
+            }
+            
+            body {
+              font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+              font-size: 15px;
+              color: #333;
+              line-height: 1.42857143;
+              background-color: #ffffff;
+              margin: 0;
+              padding: 0;
+            }
+            
+            body.pdf {
+              background-color: #ffffff;
+              font-size: 12px;
+            }
+            
+            li {
+              list-style: none;
+              position: relative;
+            }
+            
+            li:before {
+              content: '';
+              position: absolute;
+              display: block;
+              width: 2px;
+              height: 80%;
+              top: 10%;
+              left: -12px;
+              background-color: steelblue;
+              border-radius: 6px;
+            }
+            
+            body.pdf > #main {
+              border: none;
+            }
+            
+            body.pdf #container > header {
+              padding: 0;
+              margin: 0;
+              margin-bottom: 1.5em;
+            }
+            
+            #container > section {
+              margin-left: 5em;
+              position: relative;
+              display: block;
+            }
+            
+            span.fa
+            {
+              position: absolute;
+              top: 4px;
+              left: -50px;
+              font-size: 2em;
+              color: #bfc1c3;
+            }
+            
+            hr {
+              margin-top: 20px;
+              margin-bottom: 24px;
+              border: 0;
+              border-top: 1px solid #eee;
+            }
+            
+            body.pdf hr {
+              margin-top: 20px;
+              margin-bottom: 24px;
+            }
+            
+            .tenure, .keywords {
+              font-size: 75%;
+            }
+            
+            .tenure {
+              color: gray;
+            }
+            
+            .keywords {
+              color: silver;
+            }
+            
+            .clear {
+              clear: both;
+            }
+            
+            h1 {
+              color: steelblue;
+              margin: 0;
+            }
+            
+            h2 {
+              font-size: 1.6em;
+              color: #bfc1c3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            h3 {
+              margin-bottom: 0;
+              font-size: 1.2em;
+            }
+            
+            a, a:visited {
+              color: #428bca;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h3 > a:before {
+              content: '[';
+              font-weight: 300;
+              margin: 0 0.4em;
+            }
+            
+            h3 > a:after {
+              content: ']';
+              font-weight: 300;
+              margin: 0 0.4em;
+            }
+            
+            .defunct {
+              color: #989898;
+              font-weight: bold;
+            }
+            
+            h1, .label {
+              font-size: 2.5em;
+              text-transform: uppercase;
+              font-weight: 200;
+            }
+            
+            #contact {
+             float: right;
+            }
+            
+            
+            #contact > span {
+              display: block;
+              font-weight: 300;
+              color: steelblue;
+            }
+            
+            #contact > span > a {
+              font-weight: 300;
+            }
+            
+            #contact > span .fa {
+              color: #bfc1c3;
+              width: 32px;
+              text-align: center;
+            }
+            
+            #container > header {
+              width: 100%;
+              float: left;
+              margin-top: 2em;
+              margin-bottom: 3.5em;
+            }
+            
+            .sub-title {
+              color: #dadada;
+            }
+            
+            .label {
+              color: #dadada;
+            }
+            
+            #summary > p > strong {
+              font-size: 1.25em;
+            }
+            
+            
+            .label-keyword {
+              display: inline-block;
+              background: #7eb0db;
+              color: white;
+              font-size: 0.75em;
+              font-weight: 400;
+              padding: 0.05em 0.5em;
+              border-radius: 4px;
+              margin-top: 2px;
+              float: none;
+            }
+            
+            .card-skills {
+                position: relative;
+            }
+            .card-nested {
+                min-height: 0;
+                margin-bottom: 10px;
+                border-width: 1px 0 0 0;
+            }
+            .card {
+                border-radius: 3px;
+                padding: 10px;
+                clear: left;
+            }
+            
+            .skill-level {
+              border-radius: 3px;
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 0;
+              width: 2px;
+              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+            }
+            .skill-level .skill-progress {
+              position: absolute;
+              border-radius: 3px;
+              bottom: 0;
+              width: 100%;
+              -webkit-transition: height 1s ease;
+            }
+            .skill-level .skill-progress.beginner {
+              height: 50%;
+              background: #e74c3c;
+            }
+            .skill-level .skill-progress.intermediate {
+              height: 70%;
+              background: #f1c40f;
+            }
+            .skill-level .skill-progress.advanced {
+              height: 80%;
+              background: #428bca;
+            }
+            .skill-level .skill-progress.master {
+              height: 95%;
+              background: #5cb85c;
+            }
+            .skill-info {
+              margin-left: 10px;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 20px;
+              }
+            }
+            
+            .list-unstyled {
+              padding-left: 0;
+              list-style: none;
+            }
+            
+            .list-unstyled > li:before {
+              display: none;
+            }
+            
+            .card-skills {
+              position: relative;
+            }
+            
+            .space-top {
+                margin-top: 10px;
+            }
+            
+            #container {
+              max-width: 900px;
+              margin: 0 auto;
+            }
+            
+            #elevator-pitch {
+              text-align: center;
+              font-size: 2em
+              color: #bfc1c3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            .res-label {
+              font-style: italic;
+            }
+            
+            .float-left {
+              float: left;
+            }
+            
+            header .label {
+              color: #bfc1c3;
+              font-size: 2em;
+              font-weight: 300;
+            }
+            
+            body.pdf header h1 {
+              font-size: 2em;
+            }
+            
+            body.pdf header .label {
+              font-size: 1.4em;
+            }
+            
+            #container > #summary {
+              clear: both;
+            }
+            
+            #container > #skills {
+              float: right;
+              clear: right;
+              width: 30%;
+              margin-left: 2em;
+              margin-bottom: 5em;
+              z-index: 1;
+            }
+            
+            #container > #skills > header span.fa {
+              top: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main id="main">
+            <div id="container">
+                <header>
+                    <div class="float-left">
+                         <h1>Borin Ouch</h1>
+ <span class="label">Software Developer</span>
+
+                    </div>
+                    <p id="contact"> <span class="email">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:borin.ouch@gmail.com">borin.ouch@gmail.com</a>
+              </span>
+ <span class="phone"><i class="fa fa-mobile"></i> 778-991-8268</span>
+
+                        <span
+                        class="website"> <i class="fa fa-link"></i>
+ <a href="https://borinouch.com"><a href="https://borinouch.com">https://borinouch.com</a></a>
+                            </span>
+                    </p>
+                </header>
+                <hr>
+                <section id="summary">
+                    <header> <span class="fa fa-lg fa-info"></span> 
+                         <h2>info</h2>
+
+                    </header>Full-stack developer with over 5 years of industry experience. In his
+                    day to day work, you may find him working on anything from front-end to
+                    back-end. One day he may be cleaning up HTML or CSS, or implementing a
+                    Single Page Application with JavaScript, another day he may troubleshooting
+                    C#, PHP, or C++ code to solve a nasty back-end issue, or he may be writing
+                    Python scripts to automate a task. In his free time, he may be working
+                    to improve is artwork or programming, or utilize both by building a game.</section>
+                <section
+                id="skills">
+                    <hr>
+                    <header> <span class="fa fa-lg fa-code"></span>
+
+                         <h2>Skills</h2>
+
+                    </header>
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+                                <div class="skill-progress advanced"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Web Development</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">LAMP</span>
+ <span class="label label-keyword">JavaScript</span>
+
+                                    <span
+                                    class="label label-keyword">HTML 5</span> <span class="label label-keyword">Angular.js</span>
+
+                                        <span
+                                        class="label label-keyword">Require.js</span> <span class="label label-keyword">jQuery</span>
+
+                                            <span
+                                            class="label label-keyword">Sass</span> <span class="label label-keyword">LESS</span>
+ <span class="label label-keyword">Backbone.js</span>
+
+                                                <span
+                                                class="label label-keyword">Underscore.js</span> <span class="label label-keyword">Knockout.js</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+                                <div class="skill-progress advanced"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Full-Stack Software Development</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Windows</span>
+ <span class="label label-keyword">Linux</span>
+
+                                    <span
+                                    class="label label-keyword">OSX</span> <span class="label label-keyword">SSH</span>
+ <span class="label label-keyword">Vagrant</span>
+
+                                        <span
+                                        class="label label-keyword">git</span> <span class="label label-keyword">github</span>
+ <span class="label label-keyword">gitlab</span>
+
+                                            <span
+                                            class="label label-keyword">gitolite</span> <span class="label label-keyword">C++</span>
+ <span class="label label-keyword">C#</span>
+
+                                                <span
+                                                class="label label-keyword">PHP</span> <span class="label label-keyword">Python</span>
+ <span class="label label-keyword">Qt</span>
+
+                                                    <span
+                                                    class="label label-keyword">WxWidgets</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+                                <div class="skill-progress intermediate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Game Development</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">C++</span>
+ <span class="label label-keyword">Objective-C</span>
+
+                                    <span
+                                    class="label label-keyword">Flash</span> <span class="label label-keyword">ActionScript</span>
+
+                                        <span
+                                        class="label label-keyword">Haxe</span> <span class="label label-keyword">SDL</span>
+ <span class="label label-keyword">Cocos2d-x</span>
+
+                                            <span
+                                            class="label label-keyword">SpriteKit</span> <span class="label label-keyword">Unreal Engine 3</span>
+
+                                                <span
+                                                class="label label-keyword">UDK</span> <span class="label label-keyword">Unity 4</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+                                <div class="skill-progress intermediate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>3D Modeling &amp; Texturing</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">3DS Max</span>
+ <span class="label label-keyword">Maya</span>
+
+                                    <span
+                                    class="label label-keyword">ZBrush</span> <span class="label label-keyword">Photoshop</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+                                <div class="skill-progress intermediate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Design Illustration</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Drawing</span>
+ <span class="label label-keyword">Painting</span>
+
+                                    <span
+                                    class="label label-keyword">Photoshop</span> <span class="label label-keyword">OpenCanvas</span>
+
+                                        <span
+                                        class="label label-keyword">Sketching</span> <span class="label label-keyword">Concept Art</span>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    </section>
+                    <hr>
+                    <section id="employment">
+                        <header> <span class="fa fa-lg fa-building"></span> 
+                             <h2>employment</h2>
+
+                        </header>
+                        <div>
+                             <h3><em>Software Developer</em>
+      <a href="https://tionetworks.com">TIO Networks Corp.</a>
+    </h3>
+
+                            <div class="sub-title"> <span class="tenure">2013-07 — Present</span>
+| <span class="keywords">C# Asp.NET MVC HTML5 JavaScript Knockout.js jQuery LESS </span>
+
+                            </div>
+                            <p>
+                                <p>Master of Web and UI, responsible for bringing consumer facing applications
+                                    to the era of the modern web.</p>
+                            </p>
+                            <ul>
+                                <li>Migrated point-of-sale app to modern HTML5 and JavaScript, leading to
+                                    transactions of up to 40K per day</li>
+                                <li>Built a stand-alone payment app using Asp.NET MVC which take in 1500 transactions
+                                    daily</li>
+                                <li>Produced new point-of-sale to replace legacy app for improved partner
+                                    on-boarding</li>
+                                <li>Implemented the POS client using Knockout.js, jQuery, AJAX for smoother
+                                    user interaction and less support tickets filed</li>
+                                <li>Created a payment proof-of-concept, allowing a contract/integration with
+                                    a partner to go through</li>
+                                <li>Introduced LESS to keep help keep style sheets DRY</li>
+                            </ul>
+                        </div>
+                        <div>
+                             <h3><em>Full-Stack Software Developer</em>
+      <a href="https://maptmedia.com">MAPTMedia Inc.</a>
+    </h3>
+
+                            <div class="sub-title"> <span class="tenure">2010-01 — 2013-05</span>
+| <span class="keywords">PHP CodeIgniter Python HTML5 JavaScript Backbone.js MySQL Vagrant git Linux </span>
+
+                            </div>
+                            <p>
+                                <p>As a full-stack developer, I played a major role in the creation of the
+                                    company&#39;s Content Management System. I worked closely with the lead
+                                    developer to design and implement the CMS.</p>
+                            </p>
+                            <ul>
+                                <li>Set up Vagrant virtual machine for development, allowing quicker developer
+                                    start up</li>
+                                <li>Wrote Python scripts to automate build and deploy process for faster turn
+                                    around</li>
+                                <li>Implemented the architecture for the CMS using our knowledge of PHP, HTML,
+                                    CSS, and JavaScript</li>
+                                <li>Performed the configuration of Linux servers, and deployment of apps</li>
+                            </ul>
+                        </div>
+                        <div>
+                             <h3><em>Receiver</em>
+      <a href="https://www.redlsports.com">Redl Sports Distributors</a>
+    </h3>
+
+                            <div class="sub-title"> <span class="tenure">2008-01 — 2010-01</span>
+| <span class="keywords">Fishing Tackle Distributor Warehouse Receiving </span>
+
+                            </div>
+                            <p>
+                                <p>Received packages from delivery personal, counted and verified items on
+                                    packing slip, and signed for packages.</p>
+                            </p>
+                            <ul>
+                                <li>Received and signed for packages</li>
+                                <li>Storing items in warehouse and keeping shelves stocked</li>
+                            </ul>
+                        </div>
+                        <div>
+                             <h3><em>QA Tester</em>
+      <a href="http://www.ea.com/ca">EA Canada</a>
+    </h3>
+
+                            <div class="sub-title"> <span class="tenure">2006-09 — 2007-02</span>
+| <span class="keywords">QA Testing Games Wii Bug Tracking Reporting </span>
+
+                            </div>
+                            <p>
+                                <p>Responsible for testing games and reporting defects and inefficiencies
+                                    in tracker.</p>
+                            </p>
+                            <ul>
+                                <li>Tested games on the yet unreleased Wii console</li>
+                                <li>Improved quality of final game</li>
+                            </ul>
+                        </div>
+                        <div>
+                             <h3><em>Artist / Programmer</em>
+      <a href="http://www.aftercad.com">AfterCAD Software</a>
+    </h3>
+
+                            <div class="sub-title"> <span class="tenure">2007-01 — 2008-01</span>
+| <span class="keywords">3DS Max Scripting Light maps Art Modeling </span>
+
+                            </div>
+                            <p>
+                                <p>Used my skills in art and coding to improve quality of work and work flow.</p>
+                            </p>
+                            <ul>
+                                <li>Wrote max scripts to automate tasks in 3DS Max</li>
+                                <li>Created new and modified existing scenes to work with tech</li>
+                                <li>Adviser for integration of art and technology</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <hr>
+                    <section id="projects">
+                        <header> <span class="fa fa-lg fa-star"></span> 
+                             <h2>projects</h2>
+
+                        </header>
+                        <div>
+                             <h3><em>Sole Developer</em>
+      <a href="https://itunes.apple.com/us/app/letterblocks/id1031732833?ls=1&mt=8">LetterBlocks</a>
+  </h3>
+
+                            <div class="sub-title"> <span class="keywords">letters blocks word spelling boggle puzzle board </span>
+
+                            </div>
+                            <p>My first foray into iOS game development. Enticed by the newly released
+                                Swift programming language and SpriteKit game library, I ventered to create
+                                a simple yet fun word game in the style of boggle. In the end it took about
+                                4 months to complete in my free time, and was an interesting experience.</p>
+                            <ul>
+                                <li>Coded in Apple&#39;s new programming language, Swift</li>
+                                <li>Using Apple&#39;s game library for iOS, SpriteKit</li>
+                                <li>Uses SQLite Database to store and fetch words</li>
+                                <li>Uses Grand Central Dispatch for improved user interaction</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <hr>
+                    <section id="education">
+                        <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                             <h2>education</h2>
+
+                        </header>
+                        <div>
+                             <h3><em>Game Art and Design</em>
+      <a href="https://www.artinstitutes.edu/vancouver">The Art Institute of Vancouver</a>
+  </h3>
+
+                            <div class="sub-title"> <span class="tenure">2005-01 — 2006-06</span>
+| <span class="keywords">Art History Life Drawing Design Illustration 3D Modeling Animation UV Mapping Skinning Boning 3DS Max Maya Photoshop Flash Unreal Engine ActionScript Game Design Game Development </span>
+
+                            </div>
+                        </div>
+                        <div>
+                             <h3><em>Computer Systems Technician</em>
+      <a href="http://www.bcit.ca">British Columbia Institute of Technology</a>
+  </h3>
+
+                            <div class="sub-title"> <span class="tenure">2003-09 — 2004-07</span>
+| <span class="keywords">Windows Administration Active Directory LDAP Kerberos Networking OSI Layer CCNA TCP/IP Programming C++ Java PC Repair </span>
+
+                            </div>
+                        </div>
+                    </section>
+                    <hr>
+                    <section id="references">
+                        <header> <span class="fa fa-lg fa-thumbs-o-up"></span> 
+                             <h2>references</h2>
+
+                        </header>
+                        <div>
+                             <h3><em>Matthew Jeffery</em>, Full-Stack Developer @ The Muse</h3>
+
+                            <p>Contact information available on request.</p>
+                        </div>
+                        <div>
+                             <h3><em>Sam Nisan</em>, Software Developer @ TIO Networks</h3>
+
+                            <p>Contact information available on request.</p>
+                        </div>
+                        <div>
+                             <h3><em>Jude Wang</em>, Senior Software Engineer @ TIO Networks</h3>
+
+                            <p>Contact information available on request.</p>
+                        </div>
+                    </section>
+            </div>
+        </main>
+    </body>
+
+</html>
