@@ -7,4 +7,6 @@ Thumbs.db
 build/
 out/
 
+# VS Code
+.vscode/
 
