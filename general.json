@@ -7,8 +7,8 @@
     },
 
     "info": {
-        "label": "Software Developer",
-        "brief": "Full-stack developer with over 5 years of industry experience. In his day to day work, you may find him working on anything from front-end to back-end. One day he may be cleaning up HTML or CSS, or implementing a Single Page Application with JavaScript, another day he may troubleshooting C#, PHP, or C++ code to solve a nasty back-end issue, or he may be writing Python scripts to automate a task. In his free time, he may be working to improve is artwork or programming, or utilize both by building a game.",
+        "label": "Software Engineer",
+        "brief": "Full-stack software engineer with over 7 years of industry experience. Extensive experience building front-end and back-end applications. Qualifications include: considerable knowledge of various programming languages such as JavaScript, Python, C#, C++; Demonstrable skill with libraries such as React, Redux; Able to debug and fix code in Visual Studio, IntellJ, XCode. Fast learner and driven to action.",
         "image": ""
     },
 
@@ -20,10 +20,10 @@
     },
 
     "location": {
-        "address": "#203-2285 Welcher Ave.",
-        "city": "Port Coquitlam",
-        "region": "B.C.",
-        "code": "V3C 1X2",
+        "address": "19576 Somerset Dr.",
+        "city": "Pitt Meadows",
+        "region": "BC",
+        "code": "V3Y 2L4",
         "country": "CA"
     },
 
@@ -45,94 +45,60 @@
             "network": "HackerRank",
             "user": "aceiii",
             "url": "https://hackerrank.com/aceiii"
-        },
-        {
-            "label": "googleplus",
-            "network": "Google+",
-            "user": "Brain Ache",
-            "url": "https://plus.google.com/u/0/+BrainAche"
         }
     ],
 
     "employment": {
-        "summary": "Optional overall employment summary. Not used in most themes.",
+        "summary": "Full-stack software engineer with proven experience in several companies.",
         "history": [
             {
-                "employer": "TIO Networks Corp.",
-                "url": "https://tionetworks.com",
-                "position": "Software Developer",
-                "summary": "Master of Web and UI, responsible for bringing consumer facing applications to the era of the modern web.",
-                "start": "2013-07",
-                "keywords": ["C#", "Asp.NET MVC", "HTML5", "JavaScript", "Knockout.js", "jQuery", "LESS"],
+                "employer": "PayPal",
+                "url": "https://www.paypal.com",
+                "position": "Software Engineer",
+                "location": "Vancouver, BC",
+                "summary": "Experienced full stack engineer. Technical guidance for customer-facing applications.",
+                "start": "2017-09",
+                "end": "2018-04",
+                "keywords": ["Node.js", "React", "Redux", "HTML5", "CSS", "JavaScript", "Java", "Docker"],
                 "highlights": [
-                    "Migrated point-of-sale app to modern HTML5 and JavaScript, leading to transactions of up to 40K per day",
-                    "Built a stand-alone payment app using Asp.NET MVC which take in 1500 transactions daily",
-                    "Produced new point-of-sale to replace legacy app for improved partner on-boarding",
-                    "Implemented the POS client using Knockout.js, jQuery, AJAX for smoother user interaction and less support tickets filed",
-                    "Created a payment proof-of-concept, allowing a contract/integration with a partner to go through",
-                    "Introduced LESS to keep help keep style sheets DRY"
+                    "Served as technical lead on React+Redux point-of-sale application",
+                    "Architected structure and layout of components",
+                    "Provided technical guidance to other engineers",
+                    "Analyzed and review requirements from technical perspective"
                 ]
             },
             {
-                "employer": "MAPTMedia Inc.",
+                "employer": "TIO Networks",
+                "url": "https://tionetworks.com",
+                "position": "Software Developer",
+                "location": "Vancouver, BC",
+                "summary": "Proven experience with Web and UI. Helped bring consumer facing applications to the era of the modern web.",
+                "start": "2013-07",
+                "end": "2017-09",
+                "keywords": ["C#", "ASP.NET", "ASP.NET MVC", "HTML5", "JavaScript", "Knockout.js", "jQuery", "LESS"],
+                "highlights": [
+                    "Develop new back-end features for existing framework in C#",
+                    "Created various proof-of-concepts for potential new projects",
+                    "Migrated existing point-of-sale front-end to modern HTML5 & JavaScript stack, takes up to 40k transactions per day",
+                    "Introduced modern web tech such as Knockout.js and LESS to improve developer productivity",
+                    "Maintained legacy ASP.NET applications"
+                ]
+            },
+            {
+                "employer": "MAPTMedia",
                 "url": "https://maptmedia.com",
                 "position": "Full-Stack Software Developer",
-                "summary": "As a full-stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.", 
+                "location": "Surrey, BC",
+                "summary": "As a full-stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.",
                 "start": "2010",
                 "end": "2013-05",
                 "keywords": [
-                    "PHP", "CodeIgniter", "Python", "HTML5", "JavaScript", "Backbone.js", "MySQL", "Vagrant", "git", "Linux"],
+                    "Linux", "Apache", "MySQL", "PHP", "CodeIgniter", "Python", "HTML5", "JavaScript"],
                 "highlights": [
                     "Set up Vagrant virtual machine for development, allowing quicker developer start up",
                     "Wrote Python scripts to automate build and deploy process for faster turn around",
                     "Implemented the architecture for the CMS using our knowledge of PHP, HTML, CSS, and JavaScript",
-                    "Performed the configuration of Linux servers, and deployment of apps"
-                ]
-            },
-            {
-                "employer": "Redl Sports Distributors",
-                "url": "https://www.redlsports.com",
-                "position": "Receiver",
-                "summary": "Received packages from delivery personal, counted and verified items on packing slip, and signed for packages.",
-                "start": "2008",
-                "end": "2010",
-                "keywords": [
-                    "Fishing", "Tackle", "Distributor", "Warehouse", "Receiving"
-                ],
-                "highlights": [
-                    "Received and signed for packages",
-                    "Storing items in warehouse and keeping shelves stocked"
-                ]
-            },
-            {
-                "employer": "EA Canada",
-                "url": "http://www.ea.com/ca",
-                "position": "QA Tester",
-                "summary": "Responsible for testing games and reporting defects and inefficiencies in tracker.",
-                "start": "2006-09",
-                "end": "2007-02",
-                "keywords": [
-                    "QA", "Testing", "Games", "Wii", "Bug Tracking", "Reporting"
-                ],
-                "highlights": [
-                    "Tested games on the yet unreleased Wii console",
-                    "Improved quality of final game"
-                ]
-            },
-            {
-                "employer": "AfterCAD Software",
-                "url": "http://www.aftercad.com",
-                "position": "Artist / Programmer",
-                "summary": "Used my skills in art and coding to improve quality of work and work flow.",
-                "start": "2007",
-                "end": "2008",
-                "keywords": [
-                    "3DS Max", "Scripting", "Light maps", "Art", "Modeling"
-                ],
-                "highlights": [
-                    "Wrote max scripts to automate tasks in 3DS Max",
-                    "Created new and modified existing scenes to work with tech",
-                    "Adviser for integration of art and technology"
+                    "Performed the configuration of Linux servers, and deployment of applications"
                 ]
             }
         ]
@@ -166,18 +132,35 @@
         "degree": "Game Art & Design",
         "history": [
             {
+                "institution": "University of Maryland, College Park on Coursera",
+                "title": "Cryptography",
+                "url": "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G",
+                "summary": "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G",
+                "curriculum": [
+                    "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G"
+                ]
+            },
+            {
+                "institution": "University of Maryland, College Park on Coursera",
+                "title": "Software Security",
+                "url": "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9",
+                "summary": "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9",
+                "curriculum": [
+                    "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9"
+                ]
+            },
+            {
                 "institution": "The Art Institute of Vancouver",
                 "title": "Game Art and Design",
                 "url": "https://www.artinstitutes.edu/vancouver",
                 "start": "2005-01",
                 "end": "2006-06",
-                "grade": "3.5",
                 "summary": "Graduate of The Art Institute of Vancouver - Game Art & Design Program",
                 "curriculum": [
                     "Art History", "Life Drawing", "Design", "Illustration",
                     "3D Modeling", "Animation", "UV Mapping", "Skinning", "Boning",
                     "3DS Max", "Maya", "Photoshop", "Flash", "Unreal Engine",
-                    "ActionScript", "Game Design", "Game Development" 
+                    "ActionScript", "Game Design", "Game Development"
                 ]
             },
             {
@@ -201,44 +184,39 @@
     "skills": {
         "sets": [
             {
-                "name": "Web Development",
+                "name": "Web",
                 "level": "advanced",
                 "skills": [
-                    "LAMP", "JavaScript", "HTML 5", "Angular.js", "Require.js",
-                    "jQuery", "Sass", "LESS", "Backbone.js", "Underscore.js", "Knockout.js"
+                    "Node.js", "React", "Redux", "JavaScript",
+                    "ES6", "HTML5", "CSS", "jQuery",
+                    "LESS", "Backbone.js", "Knockout.js"
                 ]
             },
             {
-                "name": "Full-Stack Software Development",
+                "name": "Middle-Tier",
                 "level": "advanced",
                 "skills": [
-                    "Windows", "Linux", "OSX", "SSH", "Vagrant",
-                    "git", "github", "gitlab", "gitolite",
-                    "C++", "C#", "PHP", "Python", "Qt", "WxWidgets"
+                    "C#", "ASP.NET", "ASP.NET MVC",
+                    "Web Services", "SOAP", "REST",
+                    "SQL Server", "MySQL"
                 ]
             },
             {
-                "name": "Game Development",
+                "name": "Full-Stack",
+                "level": "advanced",
+                "skills": [
+                    "Windows", "Linux", "MacOS",
+                    "git", "github", "ssh", "vagrant",
+                    "C++", "C#", "PHP", "Python", "Java"
+                ]
+            },
+            {
+                "name": "Game Dev",
                 "level": "intermediate",
                 "skills": [
                     "C++", "Objective-C", "Flash", "ActionScript",
                     "Haxe", "SDL", "Cocos2d-x", "SpriteKit",
-                    "Unreal Engine 3", "UDK", "Unity 4"
-                ]
-            },
-            {
-                "name": "3D Modeling & Texturing",
-                "level": "intermediate",
-                "skills": [
-                    "3DS Max", "Maya", "ZBrush", "Photoshop"
-                ]
-            },
-            {
-                "name": "Design Illustration",
-                "level": "intermediate",
-                "skills": [
-                    "Drawing", "Painting", "Photoshop", "OpenCanvas",
-                    "Sketching", "Concept Art"
+                    "Unreal Engine", "Unity", "OpenGL", "GLSL"
                 ]
             }
         ],
@@ -255,22 +233,9 @@
 
     "references": [
         {
-            "name": "Matthew Jeffery",
-            "category": "professional",
-            "role": "Full-Stack Developer @ The Muse",
-            "private": true,
-            "summary": "Contact information available on request.",
-            "contact": [
-                {
-                    "flavor": "email",
-                    "value": "matt.j@themuse.com"
-                }
-            ]
-        },
-        {
             "name": "Sam Nisan",
             "category": "professional",
-            "role": "Software Developer @ TIO Networks",
+            "role": "Software Engineer @ PayPal",
             "private": false,
             "summary": "Contact information available on request.",
             "contact": [
@@ -283,13 +248,26 @@
         {
             "name": "Jude Wang",
             "category": "professional",
-            "role": "Senior Software Engineer @ TIO Networks",
+            "role": "MTS Senior Software Engineer @ PayPal",
             "private": false,
             "summary": "Contact information available on request.",
             "contact": [
                 {
                     "flavor": "email",
                     "value": "jude_wang@yahoo.com"
+                }
+            ]
+        },
+        {
+            "name": "Rami Sahyouni",
+            "category": "professional",
+            "role": "Software Engineer Manager @ PayPal",
+            "private": false,
+            "summary": "Contact information available on request.",
+            "contact": [
+                {
+                    "flavor": "email",
+                    "value": "sahyouni@gmail.com"
                 }
             ]
         }
@@ -336,6 +314,31 @@
         }
     ],
 
-    "interests": []
+    "interests": [
+        {
+            "name": "Programming",
+            "summary": "",
+            "keywords": []
+        },
+        {
+            "name": "Software Security & Cryptography",
+            "summary": "",
+            "keywords": []
+        },        {
+            "name": "Game Development",
+            "summary": "",
+            "keywords": []
+        },
+        {
+            "name": "Drawing & Painting",
+            "summary": "",
+            "keywords": []
+        },
+        {
+            "name": "3D Modeling & Animation",
+            "summary": "",
+            "keywords": []
+        }
+    ]
 }
 
