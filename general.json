@@ -112,7 +112,7 @@
             "repo": "about:blank",
             "media": [],
             "role": "Sole Developer",
-            "summary": "My first foray into iOS game development. Enticed by the newly released Swift programming language and SpriteKit game library, I ventered to create a simple yet fun word game in the style of boggle. In the end it took about 4 months to complete in my free time, and was an interesting experience.",
+            "summary": "My first foray into iOS game development. Enticed by the newly released Swift programming language and SpriteKit game library, I ventured to create a simple yet fun word game in the style of boggle. In the end it took about 4 months to complete in my free time, and was an interesting experience.",
             "description": "LetterBlocks is a game for those who like simple word games such as Boggle or Scrabble.",
             "highlights": [
                 "Coded in Apple's new programming language, Swift",
