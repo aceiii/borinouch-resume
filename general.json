@@ -8,7 +8,7 @@
 
     "info": {
         "label": "Software Engineer",
-        "brief": "Full-stack software engineer with over 7 years of industry experience. Extensive experience building front-end and back-end applications. Qualifications include: considerable knowledge of various programming languages such as JavaScript, Python, C#, C++; Demonstrable skill with libraries such as React, Redux; Able to debug and fix code in Visual Studio, IntellJ, XCode. Fast learner and driven to action.",
+        "brief": "Senior software engineer with over 10 years of industry experience. Extensive experience building front-end and back-end applications. Qualifications include: considerable knowledge of various programming languages such as JavaScript, Python, C#, C++; Demonstrable skill with libraries such as React, Redux; Able to debug and fix code in Visual Studio, IntellJ, XCode. Fast learner and driven to action.",
         "image": ""
     },
 
@@ -51,6 +51,21 @@
     "employment": {
         "summary": "Full-stack software engineer with proven experience in several companies.",
         "history": [
+            {
+                "employer": "Expedition Co.",
+                "url": "https://www.expedition.co",
+                "position": "Senior Software Engineer",
+                "location": "Los Angeles, USA (Remote)",
+                "summary": "Experienced full stack engineer. Technical guidance for customer-facing applications.",
+                "start": "2018-04",
+                "keywords": ["Node.js", "React", "Redux", "Typescript", "AWS", "DevOps"],
+                "highlights": [
+                    "Lead projects by providing software architecture and security input",
+                    "Mentoring other developers and providing technical guidance",
+                    "Monitors all projects for performance and uptime",
+                    "Responsible for setting up and maintaining deployments"
+                ]
+            },
             {
                 "employer": "PayPal",
                 "url": "https://www.paypal.com",
@@ -231,47 +246,7 @@
 
     "recognition": [],
 
-    "references": [
-        {
-            "name": "Sam Nisan",
-            "category": "professional",
-            "role": "Software Engineer @ PayPal",
-            "private": false,
-            "summary": "Contact information available on request.",
-            "contact": [
-                {
-                    "flavor": "email",
-                    "value": "nisansemir@hotmail.com"
-                }
-            ]
-        },
-        {
-            "name": "Jude Wang",
-            "category": "professional",
-            "role": "MTS Senior Software Engineer @ PayPal",
-            "private": false,
-            "summary": "Contact information available on request.",
-            "contact": [
-                {
-                    "flavor": "email",
-                    "value": "jude_wang@yahoo.com"
-                }
-            ]
-        },
-        {
-            "name": "Rami Sahyouni",
-            "category": "professional",
-            "role": "Software Engineer Manager @ PayPal",
-            "private": false,
-            "summary": "Contact information available on request.",
-            "contact": [
-                {
-                    "flavor": "email",
-                    "value": "sahyouni@gmail.com"
-                }
-            ]
-        }
-    ],
+    "references": [],
 
     "testimonials": [],
 
@@ -285,6 +260,10 @@
             "level": "native"
         },
         {
+            "language": "Typescript/Javascript",
+            "level": "intermediate"
+        },
+        {
             "language": "C++",
             "level": "intermediate"
         },
@@ -293,12 +272,12 @@
             "level": "intermediate"
         },
         {
-            "language": "Python",
+            "language": "PHP",
             "level": "intermediate"
         },
         {
-            "language": "PHP",
-            "level": "intermediate"
+            "language": "Python",
+            "level": "beginner"
         },
         {
             "language": "Objective-C",
