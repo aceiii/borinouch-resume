@@ -144,6 +144,42 @@
         "degree": "Game Art & Design",
         "history": [
             {
+                "institution": "Cockroach Labs",
+                "title": "Getting Started with CockroachDB",
+                "url": "https://university.cockroachlabs.com/award/certification/f59824be-ef35-3b48-901e-ce044ed6f5f0",
+                "summary": "https://university.cockroachlabs.com/award/certification/f59824be-ef35-3b48-901e-ce044ed6f5f0",
+                "curriculum": [
+                    "https://university.cockroachlabs.com/award/certification/f59824be-ef35-3b48-901e-ce044ed6f5f0"
+                ]
+            },
+            {
+                "institution": "Redis Labs",
+                "title": "RU202: Redis Streams",
+                "url": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU202+2019_06",
+                "summary": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU202+2019_06",
+                "curriculum": [
+                    "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU202+2019_06"
+                ]
+            },
+            {
+                "institution": "Redis Labs",
+                "title": "RU201: RediSearch",
+                "url": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU201+2018_01",
+                "summary": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU201+2018_01",
+                "curriculum": [
+                    "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU201+2018_01"
+                ]
+            },
+            {
+                "institution": "Redis Labs",
+                "title": "RU101: Introduction to Redis Data Structures",
+                "url": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU101+2018_02",
+                "summary": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU101+2018_02",
+                "curriculum": [
+                    "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU101+2018_02"
+                ]
+            },
+            {
                 "institution": "University of Maryland, College Park on Coursera",
                 "title": "Cryptography",
                 "url": "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G",
