@@ -56,7 +56,7 @@
                 "url": "https://www.expedition.co",
                 "position": "Senior Software Engineer",
                 "location": "Los Angeles, USA (Remote)",
-                "summary": "Experienced full stack engineer. Technical guidance for customer-facing applications.",
+                "summary": "Experienced full stack engineer, providing technical guidance for customer-facing applications and leadership to junior engineers.",
                 "start": "2018-04",
                 "keywords": ["Node.js", "React", "Redux", "Typescript", "AWS", "DevOps"],
                 "highlights": [
@@ -67,29 +67,13 @@
                 ]
             },
             {
-                "employer": "PayPal",
-                "url": "https://www.paypal.com",
-                "position": "Software Engineer",
-                "location": "Vancouver, BC",
-                "summary": "Experienced full stack engineer. Technical guidance for customer-facing applications.",
-                "start": "2017-09",
-                "end": "2018-04",
-                "keywords": ["Node.js", "React", "Redux", "HTML5", "CSS", "JavaScript", "Java", "Docker"],
-                "highlights": [
-                    "Served as technical lead on React+Redux point-of-sale application",
-                    "Architected structure and layout of components",
-                    "Provided technical guidance to other engineers",
-                    "Analyzed and review requirements from technical perspective"
-                ]
-            },
-            {
-                "employer": "TIO Networks",
+                "employer": "TIO Networks / PayPal",
                 "url": "https://tionetworks.com",
                 "position": "Software Developer",
                 "location": "Vancouver, BC",
                 "summary": "Proven experience with Web and UI. Helped bring consumer facing applications to the era of the modern web.",
                 "start": "2013-07",
-                "end": "2017-09",
+                "end": "2018-04",
                 "keywords": ["C#", "ASP.NET", "ASP.NET MVC", "HTML5", "JavaScript", "Knockout.js", "jQuery", "LESS"],
                 "highlights": [
                     "Develop new features in C#, and new proof-of-concepts for new projects",
@@ -102,7 +86,7 @@
                 "url": "https://maptmedia.com",
                 "position": "Full-Stack Software Developer",
                 "location": "Surrey, BC",
-                "summary": "As a full-stack developer, I played a major role in the creation of the company's Content Management System. I worked closely with the lead developer to design and implement the CMS.",
+                "summary": "Full-stack developer playing a major role in the creation of the company's Content Management System. Worked closely with the lead to design, implement, and maintain the CMS.",
                 "start": "2010",
                 "end": "2013-05",
                 "keywords": [
