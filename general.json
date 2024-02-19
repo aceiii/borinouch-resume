@@ -8,7 +8,7 @@
 
     "info": {
         "label": "Software Engineer",
-        "brief": "Senior software engineer with over 10 years of industry experience. Extensive experience building front-end and back-end applications. Considerable knowledge with languages such as Typescript, C#, C++ and libraries such as React and Redux. Also delves deep into DevOps side by writing deployment Shell scripts, manages EC2 Instances on AWS and DigitalOcean, and occasionally manages instances directly through SSH. Has a thirst for knowledge and is a fast learner.",
+        "brief": "Experienced senior software engineer with a proven track record spanning over 10 years in the industry. Proficient in developing both front-end and back-end applications, leveraging a diverse skill set in languages ranging from TypeScript to C#. This proficiency is complemented by an in-depth understanding of various frameworks, a comprehensive grasp of DevOps tools, and a solid foundation in computer science fundamentals. Possesses a proactive attitude towards learning new technologies and a strong aptitude for acquiring new skills.",
         "image": ""
     },
 
@@ -49,21 +49,21 @@
     ],
 
     "employment": {
-        "summary": "Full-stack software engineer with proven experience in several companies.",
+        "summary": "Seasoned senior full-stack software engineer with a proven track record across multiple companies.",
         "history": [
             {
                 "employer": "Expedition Co.",
                 "url": "https://www.expedition.co",
                 "position": "Senior Software Engineer",
                 "location": "Los Angeles, USA (Remote)",
-                "summary": "Experienced full stack engineer, providing technical guidance for customer-facing applications and leadership to junior engineers.",
+                "summary": "Experienced full-stack engineer, providing technical guidance for customer-facing applications and leadership to junior engineers.",
                 "start": "2018-04",
-                "keywords": ["Node.js", "React", "Redux", "Typescript", "AWS", "DevOps"],
+                "keywords": ["Typescript", "Node", "React", "Firebase", "AWS", "GCP", "DevOps"],
                 "highlights": [
-                    "Lead projects by providing software architecture and security input",
-                    "Mentoring other developers and providing technical guidance",
-                    "Monitors all projects for performance and uptime",
-                    "Responsible for setting up and maintaining deployments"
+                    "Led projects, providing software architecture insights and ensuring security standards compliance",
+                    "Mentored developers, providing technical guidance to foster growth",
+                    "Oversee all projects to ensure optimal performance and uptime",
+                    "Responsible for configuring and maintaining deployments to ensure smooth operations"
                 ]
             },
             {
@@ -71,14 +71,14 @@
                 "url": "https://tionetworks.com",
                 "position": "Software Developer",
                 "location": "Vancouver, BC",
-                "summary": "Proven experience with Web and UI. Helped bring consumer facing applications to the era of the modern web.",
+                "summary": "Led initiatives in web and UI development, driving the transformation of consumer-facing applications to meet the demands of the modern web environment.",
                 "start": "2013-07",
                 "end": "2018-04",
                 "keywords": ["C#", "ASP.NET", "ASP.NET MVC", "HTML5", "JavaScript", "Knockout.js", "jQuery", "LESS"],
                 "highlights": [
-                    "Develop new features in C#, and new proof-of-concepts for new projects",
-                    "Migrated existing point-of-sale front-end to modern HTML5 & JavaScript stack, takes up to 40k transactions per day",
-                    "Introduced modern web tech such as Knockout.js and LESS to improve developer productivity"
+                    "Developed new features utilizing C# and prototype proof-of-concepts for emerging projects",
+                    "Upgraded legacy point-of-sale front-end to a modern HTML5 and JavaScript stack, handling 40,000 transactions daily",
+                    "Implemented modern web technologies like Knockout.js and LESS, significantly enhancing developer productivity"
                 ]
             },
             {
@@ -86,101 +86,27 @@
                 "url": "https://maptmedia.com",
                 "position": "Full-Stack Software Developer",
                 "location": "Surrey, BC",
-                "summary": "Full-stack developer playing a major role in the creation of the company's Content Management System. Worked closely with the lead to design, implement, and maintain the CMS.",
+                "summary": "As a full-stack developer, played a central role in leading the development of the company's Content Management System (CMS). Collaborated closely with the team lead to conceptualize, implement, and maintain the CMS infrastructure.",
                 "start": "2010",
                 "end": "2013-05",
                 "keywords": [
                     "Linux", "Apache", "MySQL", "PHP", "CodeIgniter", "Python", "HTML5", "JavaScript"],
                 "highlights": [
-                    "Implemented the architecture for the CMS using our knowledge of PHP, HTML, CSS, and JavaScript",
-                    "Set up Vagrant virtual machine for development, allowing quicker developer start up",
-                    "Wrote Python scripts to automate build and deploy process for faster turn around"
+                    "Utilized expertise in PHP, HTML, CSS, and JavaScript to architect the Content Management System",
+                    "Introduced Vagrant virtual machine tooling for streamlined developer onboarding, facilitating rapid project initiation",
+                    "Developed Python scripts to automate the build and deployment processes, significantly expediting turnaround times"
                 ]
             }
         ]
     },
 
-    "projects": [
-        {
-            "title": "LetterBlocks",
-            "category": "Game",
-            "url": "https://itunes.apple.com/us/app/letterblocks/id1031732833?ls=1&mt=8",
-            "repo": "about:blank",
-            "media": [],
-            "role": "Principal Developer",
-            "summary": "My first foray into iOS game development. Enticed by the newly released Swift programming language and SpriteKit game library, I ventured to create a simple yet fun word game in the style of boggle. In the end it took about 4 months to complete in my free time, and was an interesting experience.",
-            "description": "LetterBlocks is a game for those who like simple word games such as Boggle or Scrabble.",
-            "highlights": [
-                "Coded in Apple's new programming language, Swift",
-                "Using Apple's game library for iOS, SpriteKit",
-                "Uses SQLite Database to store and fetch words",
-                "Uses Grand Central Dispatch for improved user interaction"
-            ],
-            "keywords": [
-                "letters", "blocks", "word", "spelling", "boggle", "puzzle", "board"
-            ]
-        }
-    ],
+    "projects": [],
 
     "education": {
         "summary": "",
         "level": "certificate",
         "degree": "Game Art & Design",
         "history": [
-            {
-                "institution": "Cockroach Labs",
-                "title": "Getting Started with CockroachDB",
-                "url": "https://university.cockroachlabs.com/award/certification/f59824be-ef35-3b48-901e-ce044ed6f5f0",
-                "summary": "https://university.cockroachlabs.com/award/certification/f59824be-ef35-3b48-901e-ce044ed6f5f0",
-                "curriculum": [
-                    "https://university.cockroachlabs.com/award/certification/f59824be-ef35-3b48-901e-ce044ed6f5f0"
-                ]
-            },
-            {
-                "institution": "Redis Labs",
-                "title": "RU202: Redis Streams",
-                "url": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU202+2019_06",
-                "summary": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU202+2019_06",
-                "curriculum": [
-                    "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU202+2019_06"
-                ]
-            },
-            {
-                "institution": "Redis Labs",
-                "title": "RU201: RediSearch",
-                "url": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU201+2018_01",
-                "summary": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU201+2018_01",
-                "curriculum": [
-                    "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU201+2018_01"
-                ]
-            },
-            {
-                "institution": "Redis Labs",
-                "title": "RU101: Introduction to Redis Data Structures",
-                "url": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU101+2018_02",
-                "summary": "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU101+2018_02",
-                "curriculum": [
-                    "https://university.redislabs.com/certificates/user/7711/course/course-v1:redislabs+RU101+2018_02"
-                ]
-            },
-            {
-                "institution": "University of Maryland, College Park on Coursera",
-                "title": "Cryptography",
-                "url": "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G",
-                "summary": "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G",
-                "curriculum": [
-                    "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G"
-                ]
-            },
-            {
-                "institution": "University of Maryland, College Park on Coursera",
-                "title": "Software Security",
-                "url": "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9",
-                "summary": "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9",
-                "curriculum": [
-                    "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9"
-                ]
-            },
             {
                 "institution": "The Art Institute of Vancouver",
                 "title": "Game Art and Design",
@@ -211,44 +137,72 @@
         ]
     },
 
+    "certificates": [
+        {
+            "name": "Getting Started with CockroachDB",
+            "date": "2021-08-25",
+            "issuer": "Cockroach Labs",
+            "url": "https://university.cockroachlabs.com/certificates/f66cfd0ef79948048084ff3d3ec0c961"
+        },
+        {
+            "name": "RU202: Redis Streams",
+            "date": "2019-12-04",
+            "issuer": "Redis Labs",
+            "url": "https://university.redis.com/certificates/c591885b8c0846c7a3c8c0d7fc8ba807"
+        },
+        {
+            "name": "RU201: RediSearch",
+            "date": "2019-01-03",
+            "issuer": "Redis Labs",
+            "url": "https://university.redis.com/certificates/57f9dd955f0940938e880f314f52b99e"
+        },
+        {
+            "name": "RU101: Introduction to Redis Data Structures",
+            "date": "2018-09-29",
+            "issuer": "Redis Labs",
+            "url": "https://university.redis.com/certificates/d94e7cd36b604dc4a6fc6c3eab7dc5c6"
+        },
+        {
+            "name": "Cryptography",
+            "date": "2015-02-04",
+            "issuer": "University of Maryland, College Park on Coursera",
+            "url": "https://www.coursera.org/account/accomplishments/verify/QYHR72NU6G"
+        },
+        {
+            "name": "Software Security",
+            "date": "2014-12-15",
+            "issuer": "University of Maryland, College Park on Coursera",
+            "url": "https://www.coursera.org/account/accomplishments/verify/ZGP6JRVUM9"
+        }
+    ],
+
     "service": {},
 
     "skills": {
         "sets": [
             {
-                "name": "Web",
+                "name": "Frontend",
                 "level": "advanced",
                 "skills": [
-                    "Node.js", "React", "Redux", "JavaScript",
-                    "ES6", "HTML5", "CSS", "jQuery",
-                    "LESS", "Backbone.js", "Knockout.js"
+                    "Typescript", "Javascript", "React",
+                    "GraphQL", "HTML", "CSS", "Next", "JSX",
+                    "React-Native"
                 ]
             },
             {
-                "name": "Middle-Tier",
+                "name": "Backend",
                 "level": "advanced",
                 "skills": [
-                    "C#", "ASP.NET", "ASP.NET MVC",
-                    "Web Services", "SOAP", "REST",
-                    "SQL Server", "MySQL"
+                    "Node", "PostgreSQL", "SQL", "Serverless",
+                    "Firebase", "Redis"
                 ]
             },
             {
-                "name": "Full-Stack",
+                "name": "Devops",
                 "level": "advanced",
                 "skills": [
-                    "Windows", "Linux", "MacOS",
-                    "git", "github", "ssh", "vagrant",
-                    "C++", "C#", "PHP", "Python", "Java"
-                ]
-            },
-            {
-                "name": "Game Dev",
-                "level": "intermediate",
-                "skills": [
-                    "C++", "Objective-C", "Flash", "ActionScript",
-                    "Haxe", "SDL", "Cocos2d-x", "SpriteKit",
-                    "Unreal Engine", "Unity", "OpenGL", "GLSL"
+                    "AWS", "Google Cloud", "Vercel", "Heroku",
+                    "Linux", "EC2", "SSH", "Docker"
                 ]
             }
         ],
@@ -317,7 +271,12 @@
             "keywords": []
         },
         {
-            "name": "Software Security & Cryptography",
+            "name": "Software Security",
+            "summary": "",
+            "keywords": []
+        },
+        {
+            "name": "Cryptography",
             "summary": "",
             "keywords": []
         },        {
@@ -332,6 +291,11 @@
         },
         {
             "name": "3D Modeling & Animation",
+            "summary": "",
+            "keywords": []
+        },
+        {
+            "name": "CAD & 3D Printing",
             "summary": "",
             "keywords": []
         }
